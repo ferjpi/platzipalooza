@@ -1,0 +1,208 @@
+body{
+	background-color: black;
+	font-family: 'Bree Serif', serif;
+}
+h1,h2,h3,h4,h5,h6, button{
+	font-family: 'Bree Serif', serif;
+}
+
+#social-container{
+	background-color: #1c3643;
+}
+
+#logo-container .callout{
+	background-color: #ee3f54;
+	color: white;
+	margin-bottom: 0;
+}
+#menu-container{
+	background-color: #48a19d;
+}
+#menu-container li a{
+	color:white;
+	font-family: 'Bree Serif', serif;
+	text-transform: uppercase;
+}
+#submenu-container{
+	border: 0;
+}
+
+#menu-container li a:hover,
+#submenu-container li a:hover{
+	color:#f6e15f;
+}
+#submenu-container li a{
+	background-color: #48a19d;
+	color: white;
+}
+#tickets-action .callout{
+	background-color: #5e7eb7;
+	color: white;
+	margin-bottom: 0;
+}
+#tickets-action .callout button{
+	color: white;
+	border: 1px solid white;
+}
+#lineup-container{
+	background-color: #9676af;
+	color: white;
+	padding: 1em 0;
+}
+#lineup-container{
+	padding: 1em 0;
+}
+
+#lineup-container .tabs,
+#lineup-container .tabs-panel,
+#lineup-container .tabs .tabs-title,
+#lineup-container .tabs .tabs-title.is-active a{
+	background-color: #9676af;
+	color: white;
+	border: 0;
+	text-transform: uppercase;
+	font-family: 'Bree Serif', serif;
+	outline: none;
+}
+.tabs-content{
+	border:0;
+}
+#lineup-container .tabs .tabs-title a{
+	font-size: 18px;
+	color: #a7fffb;
+	
+}
+#lineup-container .tabs .tabs-title a:hover{
+	color: white;
+	background-color:#9676af; 
+}
+.tabs-title{
+	display: inline-block;
+	float: none;
+}
+#lineup-container .orbit-container{
+	margin-bottom: 1em;
+} 
+#lineup-container .column:nth-child(odd) figcaption{
+	text-align: right;
+}
+#lineup-container .orbit-container {
+    height: auto !important;
+}
+#lineup-container .orbit-slide {
+    max-height: none !important;
+}
+#tickets-container,
+#artistas-container{
+	padding: 1em 0;
+	background-color: #f6e15f;
+	color: #161742;
+}
+.pricing-table{
+	border: 1px solid #161742;
+	font-family: 'Ravi Prakash', cursive;
+
+}
+.pricing-table li,
+.pricing-table li.description{
+	font-size: 20px;
+}
+.pricing-table li.price,
+.pricing-table li.title{
+	font-size: 35px;
+}
+.pricing-table a.button{
+	font-family: 'Bree Serif', serif;
+	font-size: 15px;
+}
+.pricing-table{
+	margin-left: 0;
+}
+#info-container{
+	background-color: #161742;
+	color: white;
+	padding: 1em 0; 
+}
+#info-container .info-map iframe{
+	width: 100%;
+}
+#suscribete-container{
+	background-color: #ee3f54;
+	color: white;
+	padding: 1em 0;
+}
+#suscribete-container h small, .error-container{
+	color: #ffcddc;
+}
+#suscribete-container .button, .error-container{
+	font-family: 'Bree Serif', serif;
+}
+.data-sticky{
+	z-index: 100;
+}
+#scrollSticky{
+	height: 38px !important;
+}
+#offCanvas{
+	background-color: black;
+	color: white;
+	font-family: 'Bree Serif', serif;
+}
+#offCanvas li a{
+	color: white;
+}
+.drilldown li a{
+	background-color: black;
+}
+#offCanvas .is-drilldown-submenu-parent > a::after {
+	border-color: transparent transparent transparent white;
+}
+#offCanvas .drilldown .js-drilldown-back > a::before{
+	border-color: transparent white transparent transparent ;
+}
+#artistas-container{
+	display: flex;
+	flex-direction: column;
+}
+#artistas-container .orbit{
+	margin-bottom: 0.5em;
+}
+#artistas-container #artits-tabs {
+	background-color: #f6e15f;
+	color: #161742;
+	outline: 0;
+	border: 0;
+} 
+#artistas-container #artits-tabs .is-active{
+	background-color: none;
+}
+
+#artits-tabs .tabs-title > a:focus, .tabs-title > a[aria-selected="true"]{
+	background: #f6e15f;
+	color: #59b5b1;
+}
+#artits-tabs .tabs-title > a{
+	margin: 0;
+	padding: 0;
+}
+
+#biografia-container {
+	background-color: #9676af;
+	color: white;
+	border: 0;
+	font-family: 'Bree Serif', serif;
+}
+#biografia-container .tabs-content{
+	background-color: #9676af;
+	color: white;
+	border: 0;
+	font-family: 'Bree Serif', serif;
+}
+#biografia-container .text h3{
+	text-transform: uppercase;
+	margin-bottom: 2em;
+	margin-top: 1em;
+}
+#biografia-container .orbit .orbit-wrapper .orbit-container{
+	height: auto !important;
+}

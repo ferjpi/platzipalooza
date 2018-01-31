@@ -1,0 +1,361 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Platzipalooza</title>
+     <link href="https://fonts.googleapis.com/css?family=Ravi+Prakash" rel="stylesheet"> 
+     <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/pricing-table.css">
+    <link rel="stylesheet" href="icons/foundation-icons.css">
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+  <body>
+
+    <!-- off-canvas -->
+
+    <div class="off-canvas-wrapper">
+      <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
+
+        <div class="off-canvas position-left" id="offCanvas" data-off-canvas>
+          <nav data-magellan>
+            <ul class="vertical menu drilldown" data-drilldown>
+              <li><a href="index.html#tickets-container">Tickets</a></li>
+              <li>
+                <a href="index.html#lineup-container">Lineup</a>
+                  <ul class="vertical menu">
+                    <li><a data-toggle-dia="panelViernes" href="index.html#lineup-container">Viernes</a></li>
+                    <li><a data-toggle-dia="panelSabado" href="index.html#lineup-container">Sábado</a></li>
+                    <li><a data-toggle-dia="panelDomingo" href="index.html#lineup-container">Domingo</a></li>
+                  </ul>
+              </li>
+              <li><a href="galeria.html">Galería</a></li>
+              <li><a href="index.html#info-container">Info</a></li>
+              <li><a href="#suscribete-container">Suscríbete</a></li>
+            </ul>
+          </nav>
+        </div>
+        
+        <div class="off-canvas-content" data-off-canvas-content>
+          
+          <!-- Social -->
+          <section id="social-container">
+            <div class="row align-center text-center">
+              <div class="small-1 column">
+                <a href="#" target="_blank">
+                  <i class="fi-social-facebook"></i>
+                </a>
+              </div>
+              <div class="small-1 column">
+                <a href="#" target="_blank">
+                  <i class="fi-social-twitter"></i>
+                </a>
+              </div>
+              <div class="small-1 column">
+                <a href="#" target="_blank">
+                  <i class="fi-social-instagram"></i>
+                </a>
+              </div>
+            </div>      
+          </section>
+
+          <!-- /Social -->
+
+          <!-- Logo -->
+          <section id="logo-container">
+            <div class="callout text-center">
+              <h1>Platzipalooza</h1>
+            </div>
+          </section>
+
+          <!-- /Logo -->
+          
+          <!-- Menu -->
+          <section id="scrollSticky" data-sticky-container>
+            <div class="data-sticky" data-sticky id="sticky" data-options="marginTop:0;" data-sticky-on="small" data-top-anchor="scrollSticky">
+              <nav id="menu-container" data-magellan>
+                <ul class="menu align-spaced show-for-small-only">
+                  <li><a href="#offCanvas" data-toggle="offCanvas">Menu</a></li>
+                </ul>
+                <ul class="menu dropdown align-spaced show-for-medium" data-dropdown-menu>
+                  <li><a href="index.html#tickets-container">Tickets</a></li>
+                  <li>
+                    <a href="index.html#lineup-container">Lineup</a>
+                    <ul id="submenu-container" class="menu">
+                      <li><a data-toggle-dia="panelViernes" href="index.html#lineup-container">Viernes</a></li>
+                      <li><a data-toggle-dia="panelSabado" href="index.html#lineup-container">Sábado</a></li>
+                      <li><a data-toggle-dia="panelDomingo" href="index.html#lineup-container">Domingo</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="galeria.html">Galería</a></li>
+                  <li><a href="index.html#info-container">Info</a></li>
+                  <li><a href="#suscribete-container">Suscríbete</a></li>
+                </ul>
+              </nav>
+            </div>
+          </section>
+
+          <!-- /Menu -->
+
+
+          <!-- Artistas -->
+
+          <section id="artistas-container">
+            <div class="container">
+              <div class="row">
+                <div class="small-12 column">
+                  <h3 class="text-center">Artistas</h3>
+                </div>
+              </div>
+              <div class="row tabs"  data-tabs id="artits-tabs">
+                <div class="small-12 medium-4 column">
+                  <div class="orbit" data-orbit>
+                    <div class="orbit-container">
+                      <div class="orbit-slide">
+                        <figure class="orbit-figure tabs-title is-active">
+                          <a data-tabs-target="panelGuns" href="#panelGuns">
+                            <img class="orbit-image" src="https://cdne.ojo.pe/thumbs/uploads/articles/images/guns-nroses-vendria-a-lima-par_5DWSus6-jpg_1000x0.jpg" alt="Guns n' Roses">
+                          </a>
+                          <figcaption class="orbit-caption">Guns n' Roses</figcaption>
+                        </figure>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="small-12 medium-4 column">
+                  <div class="orbit" data-orbit>
+                    <div class="orbit-container">
+                      <div class="orbit-slide ">
+                        <figure class="orbit-figure tabs-title">
+                          <a data-tabs-target="panelParamore" href="#panelParamore">
+                            <img class="orbit-image" src="http://ismorbo.com/wp-content/uploads/2017/03/paramore-1000x563.jpg" alt="Paramore">
+                          </a>
+                          <figcaption class="orbit-caption">Paramore</figcaption>
+                        </figure>
+                      </div>
+                    </div>
+                  </div> 
+                </div>
+                <div class="small-12 medium-4 column">
+                  <div class="orbit" data-orbit>
+                    <div class="orbit-container">
+                      <div class="orbit-slide">
+                        <figure class="orbit-figure tabs-title">
+                          <a data-tabs-target="panelKing" href="#panelKing">
+                            <img class="orbit-image" src="http://www.indiehoy.com/wp-content/uploads/2016/09/kings-of-leon.jpg" alt="Kings of Leon">
+                          </a>
+                          <figcaption class="orbit-caption">Kings of Leon</figcaption>
+                        </figure>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- /Artistas -->
+
+          <!-- Biografia -->
+          
+          <section id="biografia-container">
+            <div class="tabs-content" data-tabs-content="artits-tabs">
+
+              <div class="tabs-panel is-active" id="panelGuns">
+                <div class="row">
+                  <div class="small-12 column text">
+                      <h3 class="text-center">Biografia</h3>
+                      <p>Guns N' Roses es una banda estadounidense de hard rock formada en Hollywood (Los Ángeles, California) en 1985. El grupo fue fundado por Axl Rose y el guitarrista rítmico Izzy Stradlin.6​</p>
+                      <p>La formación actual cuenta con el vocalista Axl Rose, el guitarrista rítmico Richard Fortus, los tecladistas Dizzy Reed y Melissa Reese, el baterista Frank Ferrer, el bajista Duff McKagan y el guitarrista líder Slash, estos dos últimos, considerados miembros clásicos de la agrupación, retomaron su lugar en la banda después de 23 años.</p>
+                      <p>La banda ha vendido más de 150 millones de álbumes en todo el mundo,7​8​ incluyendo más de 58 millones de álbumes en los Estados Unidos. El álbum Appetite for Destruction de 1987 ha vendido 3010​ millones de copias a nivel mundial y alcanzó el número 1 en el Billboard 200 en Estados Unidos. Además, cuatro canciones del álbum ingresaron en el Top 10 en la Billboard Hot 100, y «Sweet Child o' Mine» quedó en el número uno. Su álbum de 1988 G N' R Lies ha vendido más de 14 millones de copias en todo el mundo y su canción «Patience» entró en el Top 5 del Billboard Hot 100 y el álbum alcanzó el número dos en el Billboard 200.</p>
+                      <p>Los álbumes gemelos Use Your Illusion I y Use Your Illusion II, de 1991, subieron al número 2 y 1 del Billboard 200, respectivamente, manteniéndose durante 108 semanas, teniendo una cifra combinada de ventas de más de 35 millones de copias a nivel mundial y 14 millones de copias vendidas solo en Estados Unidos, seis de los sencillos de ambos álbumes llegaron al Billboard Hot 100 y cuatro de ellos entraron al Top 10 de la misma lista. Su siguiente trabajo sería el álbum de versiones de canciones punk y glam del año 1993 titulado The Spaghetti Incident?, del cual se desprendieron tres sencillos, de los cuales uno entró en el Billboard Hot 100 y dos entraron en la recopilación de grandes éxitos; el álbum alcanzó el puesto número 4 del Billboard 200 y el número dos en el UK Album Chart. Durante el periodo en el que la banda volvía a los escenarios con nuevos músicos salieron dos discos, uno en directo titulado Live Era: '87-'93 en 1999 y otro recopilatorio llamado Greatest Hits en 2004; que, aunque la banda se mostró negativa a la salida del álbum, tuvo un gran éxito comercial (ha vendido casi 6 millones de copias solo en los Estados Unidos y 13 millones de copias en todo el mundo); llegó al número uno del UK Album Chart y tres en el Billboard 200, estuvo 138 semanas en el Billboard 200. Después de una década de trabajo y problemas con ex miembros en los tribunales, la banda publicó su siguiente álbum, Chinese Democracy, en 2008; han publicado tres sencillos, y uno de ellos entró en el Billboard Hot 100 y dos en el Mainstream Rock Tracks, y el álbum alcanzó el número tres en el Billboard 200 y el número dos en el UK Album Chart.</p>
+                  </div>
+                  <div class="small-12 column text">
+                    <h3 class="text-center">Galería</h3>
+                      <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
+                        <div class="orbit-wrapper">
+                          <div class="orbit-controls">
+                            <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
+                            <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
+                          </div>
+                          <ul class="orbit-container">
+                            <li class="is-active orbit-slide">
+                              <figure class="orbit-figure">
+                                <img class="orbit-image" src="http://lagramoladekeith.com/wp-content/uploads/wordpress/Festify-Guns-n-ROses.jpg" alt="Guns">
+                              </figure>
+                            </li>
+                            <li class="orbit-slide">
+                              <figure class="orbit-figure">
+                                <img class="orbit-image" src="https://media.gqindia.com/wp-content/uploads/2015/09/guns-n-roses-edtd.jpg" alt="Guns">
+                              </figure>
+                            </li>
+                            <li class="orbit-slide">
+                              <figure class="orbit-figure">
+                                <img class="orbit-image" src="http://www.rockingandrunning.com/images/gunsnroseslive.jpg" alt="Guns">
+                              </figure>
+                            </li>
+                            <li class="orbit-slide">
+                              <figure class="orbit-figure">
+                                <img class="orbit-image" src="https://3gt55c4047305i53njorm39p-wpengine.netdna-ssl.com/wp-content/uploads/myfest-gunsnroses-1920x1080.jpg" alt="Guns">
+                              </figure>
+                            </li>
+                          </ul>
+                        </div>
+                        <nav class="orbit-bullets">
+                          <button class="is-active" data-slide="0"><span class="show-for-sr">First slide details.</span><span class="show-for-sr">Current Slide</span></button>
+                          <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
+                          <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
+                          <button data-slide="3"><span class="show-for-sr">Fourth slide details.</span></button>
+                        </nav>
+                      </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tabs-panel" id="panelParamore" >
+                <div class="row">
+                  <div class="small-12 column text">
+                      <h3 class="text-center">Biografia</h3>
+                      <p>Paramore es una banda estadounidense de pop punk y rock alternativo integrada por Hayley Williams (voz), Taylor York (guitarra) y Zac Farro (batería). Fue formada en Franklin, Tennessee, en 2004, por Williams y Jeremy Davis (bajo) junto con Josh Farro (guitarra líder y coros), Zac Farro (batería)6 y Jason Bynum (guitarra rítmica). En 2008, recibió su primera nominación a los premios Grammy en la categoría de mejor artista nuevo. Ese mismo año, obtuvo los galardones de mejor banda rock y mejor canción rock (por «Decode») en los Teen Choice Awards.</p>
+
+                      <p>En 2005, Paramore firmó con el sello discográfico Fueled by Ramen y lanzó su álbum debut titulado All We Know Is Falling; de este se extrajeron tres sencillos, pero ninguno logró entrar en las listas de popularidad. Tampoco apareció en la lista semanal Billboard 200, a pesar de que alcanzó el puesto número treinta de la Billboard Top Heatseekers. All We Know Is Falling recibió la certificación de disco de oro en el Reino Unido cuatro años después de su lanzamiento.</p>
+
+                      <p>Con el disco Riot!, en el año 2007, las ventas de la banda crecieron significativamente. Después de su lanzamiento en junio, alcanzó el puesto número quince en el Billboard 200 y recibió múltiples certificaciones en todo el mundo, incluyendo un disco de platino en los Estados Unidos. El sencillo «Misery Business» se convirtió en el primer tema del grupo en aparecer en el Billboard Hot 100. Para la banda sonora de la película Crepúsculo, Paramore grabó en 2008 dos canciones originales: «Decode» y «I Caught Myself»</p>
+
+                      <p>El 19 de abril de 2017, estrenaron el sencillo «Hard Times» de su quinto álbum de estudio, After Laughter. Lanzado el 12 de mayo del mismo año, su segundo sencillo promocional fue «Told You So»</p>
+                  </div>
+                  <div class="small-12 column text">
+                    <h3 class="text-center">Galería</h3>
+                      <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
+                        <div class="orbit-wrapper">
+                          <div class="orbit-controls">
+                            <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
+                            <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
+                          </div>
+                          <ul class="orbit-container">
+                            <li class=" orbit-slide">
+                              <figure class="orbit-figure">
+                                <img class="orbit-image" src="http://www.entertainmentwallpaper.com/images/res1920x1080/celebrity/paramore07.jpg" alt="Paramore">
+                              </figure>
+                            </li>
+                            <li class="orbit-slide">
+                              <figure class="orbit-figure">
+                                <img class="orbit-image" src="http://uphoric.tv/wp-content/uploads/UPHORIC-POST-RIOTFEST-PARAMORE.jpg" alt="Paramore">
+                              </figure>
+                            </li>
+                            <li class="orbit-slide">
+                              <figure class="orbit-figure">
+                                <img class="orbit-image" src="http://fanaru.com/paramore/image/58737-paramore-paramore-wallpaper.jpg" alt="Paramore">
+                              </figure>
+                            </li>
+                            <li class="orbit-slide">
+                              <figure class="orbit-figure">
+                                <img class="orbit-image" src="http://fanaru.com/paramore/image/63243-paramore-paramore-wallpaper.jpg" alt="Paramore">
+                              </figure>
+                            </li>
+                          </ul>
+                        </div>
+                        <nav class="orbit-bullets">
+                          <button class="" data-slide="0"><span class="show-for-sr">First slide details.</span><span class="show-for-sr">Current Slide</span></button>
+                          <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
+                          <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
+                          <button data-slide="3"><span class="show-for-sr">Fourth slide details.</span></button>
+                        </nav>
+                      </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tabs-panel" id="panelKing" >
+                <div class="row">
+                  <div class="small-12 column text">
+                      <h3 class="text-center">Biografia</h3>
+                      <p>Kings of Leon es un grupo de música estadounidense de rock fundado en Nashville, Tennessee, en 1999. Está formada por tres hermanos, Caleb, Nathan y Jared Followill y su primo Matthew Followill. Cada miembro de la familia es conocido por su segundo nombre en vez del primero.</p>
+
+                      <p>El nombre del grupo deriva del padre y abuelo de Nathan, Caleb y Jared, los dos llamados Leon. La música de la banda en sus comienzos era una mezcla animada de rock sureño e influencias de garage rock, pero la banda se ha ido expandiendo gradualmente a través de los años para incluir una variedad de géneros mas alternativos y también el sonido arena rock.</p>
+
+                      <p> Aunque los tres primeros álbumes del grupo tuvieron un notable éxito en Reino Unido, las ventas en los Estados Unidos fueron menos significativas. En 2008 los sencillos "Sex on Fire" y "Use Somebody" catapultaron a la banda a la fama mundial a la vez que el álbum Only by the Night obtenía el Disco de Platino en los Estados Unidos.</p>
+                  </div>
+                  <div class="small-12 column text">
+                    <h3 class="text-center">Galería</h3>
+                      <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
+                        <div class="orbit-wrapper">
+                          <div class="orbit-controls">
+                            <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
+                            <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
+                          </div>
+                          <ul class="orbit-container">
+                            <li class="is-active orbit-slide">
+                              <figure class="orbit-figure">
+                                <img class="orbit-image" src="http://t.wallpaperweb.org/wallpaper/music/1920x1080/kingsofleonwallpaper3595_1920x1080.jpg" alt="King of Leon">
+                              </figure>
+                            </li>
+                            <li class="orbit-slide">
+                              <figure class="orbit-figure">
+                                <img class="orbit-image" src="http://mundovitela.com/wp-content/uploads/2016/12/Kings-of-Leon.jpg" alt="King of Leon">
+                              </figure>
+                            </li>
+                            <li class="orbit-slide">
+                              <figure class="orbit-figure">
+                                <img class="orbit-image" src="https://hdwallsource.com/img/2014/9/kings-of-leon-wallpaper-20025-20531-hd-wallpapers.jpg" alt="King of Leon">
+                              </figure>
+                            </li>
+                            <li class="orbit-slide">
+                              <figure class="orbit-figure">
+                                <img class="orbit-image" src="https://media3.s-nbcnews.com/i/MSNBC/Components/Video/201610/tdy_concert_kingsofleon_reverend_161014.jpg" alt="King of Leon">
+                              </figure>
+                            </li>
+                          </ul>
+                        </div>
+                        <nav class="orbit-bullets">
+                          <button class="is-active" data-slide="0"><span class="show-for-sr">First slide details.</span><span class="show-for-sr">Current Slide</span></button>
+                          <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
+                          <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
+                          <button data-slide="3"><span class="show-for-sr">Fourth slide details.</span></button>
+                        </nav>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          </section>
+
+          <!-- /Biografia -->
+
+
+          <!-- Suscribete -->
+          <section id="suscribete-container" data-magellan-target="suscribete-container">
+            <h3 class="text-center">Suscríbete</h3>
+            <h4 class="text-center"><small>Y recibe las últimas novedades del concierto</small></h4>
+            <form action="https://formspree.io/fernandojpt1203@hotmail.com" method="POST" novalidate data-abide>
+              <div data-abide-error class="row small-12 medium-6 columns text-center error-container" style="display: none;">
+                <p><i class="fi-alert"></i>Ingresó un correo electronico no válido</p>
+              </div>
+              <div class="row small-12 medium-6 columns">
+                <div class="input-group">
+                  <span class="input-group-label"><i class="fi-mail"></i></span>
+                  <input type="email" name="email" class="input-group-field" placeholder="tu@correo" required>
+                  <div class="input-group-button">
+                    <input type="submit" class="button" value="Suscribirse!">
+                  </div>
+                </div>
+              </div>
+            </form>
+          </section>
+
+          <!-- /Suscribete -->
+        </div>
+
+      </div>
+    </div>
+  
+    <!-- /off-canvas -->
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+  </body>
